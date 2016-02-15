@@ -434,7 +434,7 @@
       return (
         DOM.div({ className: 'simulator-app' },
           DOM.div({ className: 'navbar navbar-default' },
-            DOM.img({ className: 'tableau-logo', src: 'tableau_logo.png', style: { height: 40, width: 40, margin: 10 } }),
+            DOM.img({ className: 'tableau-logo', src: 'https://cloud.githubusercontent.com/assets/15384244/13056179/8dfd8f5c-d3c8-11e5-8928-3a6aa2540e01.png', style: { height: 40, width: 40, margin: 10 } }),
             DOM.h2({ style: { display: 'inline', verticalAlign: 'middle' } }, 'Web Data Connector Simulator')
           ),
           Grid.element({ fluid: true },
